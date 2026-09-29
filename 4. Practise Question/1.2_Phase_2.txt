@@ -1,0 +1,104 @@
+-------------------------------------------------------------
+Stack
+
+Think:
+Last in → first out
+
+Keywords:
+parentheses
+undo
+next greater
+monotonic
+DFS
+
+-------------------------------------------------------------
+Queue
+
+Think:
+First in → first out
+
+Keywords:
+BFS
+level order
+processing order
+waiting line
+
+-------------------------------------------------------------
+Linked List
+
+Think:
+nodes + next
+
+Keywords:
+reverse
+cycle
+middle
+merge
+fast/slow pointer
+
+-------------------------------------------------------------
+Recursion
+
+Think:
+same problem
+smaller input
+
+Keywords:
+tree
+DFS
+backtracking
+divide and conquer
+
+-------------------------------------------------------------
+Binary Search
+
+Think:
+sorted
++
+eliminate half
+
+Keywords:
+sorted array
+search
+first/last occurrence
+minimum possible answer
+maximum possible answer
+
+The last two are important because binary search isn't limited to directly searching an array.
+
+-------------------------------------------------------------
+Sorting
+
+Think:
+Can sorting simplify the problem?
+
+Often sorting lets you use:
+two pointers
+greedy
+binary search
+interval merging
+
+-------------------------------------------------------------
+
+
+
+| Structure / Algorithm        |       Typical Time |
+| ---------------------------- | -----------------: |
+| Stack push/pop               |               O(1) |
+| Queue append/popleft         |               O(1) |
+| Linked list traversal        |               O(n) |
+| Linked list search           |               O(n) |
+| Recursion depends on problem |                  — |
+| Binary Search                |           O(log n) |
+| Bubble Sort                  |              O(n²) |
+| Selection Sort               |              O(n²) |
+| Insertion Sort               |              O(n²) |
+| Merge Sort                   |         O(n log n) |
+| Quick Sort                   | O(n log n) average |
+| Python `sort()` / `sorted()` | O(n log n) typical |
+
+
+
+
+
+

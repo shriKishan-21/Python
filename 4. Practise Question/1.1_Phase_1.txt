@@ -1,0 +1,33 @@
+ When you see:
+--------------------------------------------------------
+"Find a pair"
+
+ Think:
+ Two pointers
+ or
+ Hashing
+--------------------------------------------------------
+ "Find maximum/minimum sum of k consecutive elements"
+
+ Think:
+ Sliding Window
+--------------------------------------------------------
+ "Many range sum queries"
+
+ Think:
+ Prefix Sum
+--------------------------------------------------------
+ "Have I seen this before?"
+
+ Think:
+ Set / Dictionary
+--------------------------------------------------------
+ "Need frequency/count"
+
+ Think:
+ Dictionary / Counter
+--------------------------------------------------------
+ "Sorted array + pair"
+ 
+ Think:
+ Two Pointers
