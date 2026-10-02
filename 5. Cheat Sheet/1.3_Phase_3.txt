@@ -1,0 +1,117 @@
+🧠 How to Recognize Each Data Structure
+--------------------------------------------------
+Binary Tree
+
+Think:
+hierarchy
+parent/child
+left/right
+subtree
+
+Common problems:
+height
+diameter
+path sum
+lowest common ancestor
+traversals
+
+--------------------------------------------------
+BST
+
+Think:
+ordered tree
+left < root < right
+
+Common problems:
+search
+insert
+delete
+kth smallest
+validate BST
+successor/predecessor
+
+--------------------------------------------------
+Heap
+
+Think:
+minimum/maximum repeatedly
+top K
+priority
+
+--------------------------------------------------
+Trie
+
+Think:
+strings
+prefix
+autocomplete
+dictionary
+word search
+
+--------------------------------------------------
+⚡ Tree Recursion Template
+
+This is worth memorizing:
+
+def solve(root):
+
+    if root is None:
+        return ...
+
+    left = solve(root.left)
+    right = solve(root.right)
+
+    return ...
+
+Whenever you see a tree problem, try to identify:
+
+What should the left subtree return?
+What should the right subtree return?
+How do I combine them?
+
+That question is far more valuable than memorizing 20 tree solutions.
+
+
+--------------------------------------------------------------------------------
+
+
+🧩 Phase 3 Master Map
+TREE
+ │
+ ├── Binary Tree
+ │     ├── Preorder
+ │     ├── Inorder
+ │     ├── Postorder
+ │     └── Level Order
+ │
+ ├── BST
+ │     ├── Search
+ │     ├── Insert
+ │     ├── Delete
+ │     └── Inorder → Sorted
+ │
+ ├── Heap
+ │     ├── Min Heap
+ │     ├── Max Heap
+ │     └── Priority Queue
+ │
+ └── Trie
+       ├── Insert word
+       ├── Search word
+       └── Search prefix
+
+
+--------------------------------------------------------------------------------
+Complexity snapshot
+
+| Topic                      | Key operation |
+| -------------------------- | ------------: |
+| Tree traversal             |          O(n) |
+| Tree height                |          O(n) |
+| Balanced BST search        |      O(log n) |
+| BST worst-case search      |          O(n) |
+| Heap push/pop              |      O(log n) |
+| Heap peek                  |          O(1) |
+| Trie word/prefix operation |          O(L) |
+
+

@@ -1,0 +1,49 @@
+🧠 Graph Pattern Recognition
+
+When you see:
+
+"Visit every reachable node"
+BFS / DFS
+
+---------------------------------------
+
+"How many groups/components?"
+DFS / BFS / DSU
+
+---------------------------------------
+
+"Shortest path, all edges equal"
+BFS
+
+---------------------------------------
+
+"Shortest path, positive weights"
+Dijkstra
+
+---------------------------------------
+
+"Dependencies / prerequisites"
+Topological Sort
+
+---------------------------------------
+
+"Detect cycle"
+DFS / BFS / DSU
+
+---------------------------------------
+
+"Connect groups dynamically"
+DSU
+
+---------------------------------------
+
+
+| Algorithm                |       Complexity |
+| ------------------------ | ---------------: |
+| BFS                      |         O(V + E) |
+| DFS                      |         O(V + E) |
+| Connected Components     |         O(V + E) |
+| Topological Sort         |         O(V + E) |
+| Unweighted shortest path |         O(V + E) |
+| Dijkstra + heap          | O((V + E) log V) |
+| DSU `find/union`         |  ~O(1) amortized |
